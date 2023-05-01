@@ -1,0 +1,11 @@
+div {
+    width: 100%;
+    text-align: center;
+  }
+  .text {
+    font: 40px "Courgette";
+  }
+.number {
+    font: 100px "Courgette";
+    color: red;
+}

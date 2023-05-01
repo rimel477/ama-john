@@ -1,4 +1,4 @@
-const fakeData = [
+[
     {
         "key": "B002RL8IYK",
         "category": "laptop",
@@ -2175,4 +2175,4 @@ const fakeData = [
         "price": 49.99,
         "shipping": 7.99
     }
-];
+]
