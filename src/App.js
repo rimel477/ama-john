@@ -13,6 +13,19 @@ import data from "./data/data.json";
 
 function App() { 
   const [products, setProducts] = useState(data);
+     
+  // const fetchData = () => {
+  //   return fetch("./data/data.json")
+  //         .then((response) => response.json())
+  //         .then((data) => setProducts(data));
+  // }
+
+  // useEffect(() => {
+  //   fetchData();
+  // },[])
+  
+//  console.log(products);
+
 
 
   return (
