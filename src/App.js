@@ -33,7 +33,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/shop" element ={<Shop products={products} />} />
-        <Route path="/review" element ={<Review />} />
+        <Route path="/review" element ={<Review products={products} />} />
         <Route path="/inventory" element ={<Inventory />} />
         <Route exact path="/" element ={<Shop products={products}/>} />
         <Route path="/product/:productKey" element ={<ProductDetel products={products} />} />
